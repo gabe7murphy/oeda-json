@@ -10936,6 +10936,12 @@
             "comment": ""
         },
         {
+            "name": "ISLAMIC_EXTREMIST ",
+            "name_plural": "",
+            "code": "~MUSRAD",
+            "comment": ""
+        },
+        {
             "name": "ISLAMIC_EXTREMIST_GROUP ",
             "name_plural": "",
             "code": "~MUSRAD",
