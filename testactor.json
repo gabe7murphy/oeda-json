@@ -1,0 +1,44 @@
+[
+    {
+        "name": "DONALD_TRUMP_ # CountryInfo.txt",
+        "alias": [
+            "+MR_TRUMP_",
+            "+MR._TRUMP_",
+            "+PRESIDENT_DONALD_TRUMP",
+            "+US_PRESIDENT_DONALD_TRUMP",
+            "+AMERICAN_PRESIDENT_DONALD_TRUMP",
+            "+UNITED_STATES_PRESIDENT_DONALD_TRUMP",
+            "+DONALD_J_TRUMP",
+            "+DONALD_J._TRUMP",
+            "+PRESIDENT-ELECT_TRUMP",
+            "+PRESIDENT-ELECT_DONALD_TRUMP",
+            "+THE_TRUMP_ADMINISTRATION",
+            "+TRUMP_ADMINISTRATION"
+        ],
+        "codes": [
+            "[USAELI 160120-170120]",
+            "[USAGOV >170120]"
+        ]
+    },
+    {
+        "name": "ERIC_TRUMP_ # CountryInfo.txt",
+        "alias": [
+            "+MR_TRUMP_",
+            "+MR._TRUMP_",
+            "+PRESIDENT_DONALD_TRUMP",
+            "+US_PRESIDENT_DONALD_TRUMP",
+            "+AMERICAN_PRESIDENT_DONALD_TRUMP",
+            "+UNITED_STATES_PRESIDENT_DONALD_TRUMP",
+            "+DONALD_J_TRUMP",
+            "+DONALD_J._TRUMP",
+            "+PRESIDENT-ELECT_TRUMP",
+            "+PRESIDENT-ELECT_DONALD_TRUMP",
+            "+THE_TRUMP_ADMINISTRATION",
+            "+TRUMP_ADMINISTRATION"
+        ],
+        "codes": [
+            "[USAELI 160120-170120]",
+            "[USAGOV >170120]"
+        ]
+    }
+]
