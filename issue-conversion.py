@@ -78,7 +78,7 @@ def main():
             print("Skipping blank or comment")
             pass  
 
-        if "</ISSUE>" in line:
+        elif "</ISSUE>" in line:
 
             issues.append(issuedict)  # Previous issue is done, add to list
             #line = ""
@@ -94,7 +94,7 @@ def main():
 
                 issuedict["exclusion_phrases"].append(exclusion)
      
-            if "[" in line: 
+            elif "[" in line: 
                 name_code_pair = extract_name_and_code(line)
                 issuedict["names"].append(name_code_pair) 
             else:
