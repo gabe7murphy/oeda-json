@@ -94,10 +94,11 @@ def main():
 
                 issuedict["exclusion_phrases"].append(exclusion)
      
+            if "[" in line: 
+                name_code_pair = extract_name_and_code(line)
+                issuedict["names"].append(name_code_pair) 
             else:
-                if "[" in line:   
-                    name_code_pair = extract_name_and_code(line)
-                    issuedict["names"].append(name_code_pair)   
+                issuedict["names"].append(line)
 
     with open(outputactorfilename, 'w') as f:
         json.dump(issues, f, ensure_ascii=False, indent=4)
