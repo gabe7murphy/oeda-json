@@ -445,13 +445,34 @@
                 "name": "e.u.",
                 "code": "[EUROPEAN_UNION]"
             },
-            "european central bank",
-            "eec",
-            "e.e.c.",
-            "ecb",
-            "e.c.b.",
-            "e.c.b.",
-            "eurozone",
+            {
+                "name": "european central bank",
+                "code": "[EUROPEAN_UNION]"
+            },
+            {
+                "name": "eec",
+                "code": "[EUROPEAN_UNION]"
+            },
+            {
+                "name": "e.e.c.",
+                "code": "[EUROPEAN_UNION]"
+            },
+            {
+                "name": "ecb",
+                "code": "[EUROPEAN_UNION]"
+            },
+            {
+                "name": "e.c.b.",
+                "code": "[EUROPEAN_UNION]"
+            },
+            {
+                "name": "e.c.b.",
+                "code": "[EUROPEAN_UNION]"
+            },
+            {
+                "name": "eurozone",
+                "code": "[EUROPEAN_UNION]"
+            },
             {
                 "name": "european union",
                 "code": "[EUROPEAN_UNION]"
@@ -1209,243 +1230,6 @@
             {
                 "name": "n:zealot",
                 "code": "[ID_EXTREMISM]"
-            }
-        ]
-    },
-    {
-        "category": "\"SHORTAGE\"",
-        "type": "\"ALL\"",
-        "exclusion_phrases": [
-            "~no shortage"
-        ],
-        "names": [
-            {
-                "name": "shortage",
-                "code": "[SHORTAGE]"
-            },
-            {
-                "name": "shortages",
-                "code": "[SHORTAGE]"
-            },
-            {
-                "name": "rationing",
-                "code": "[SHORTAGE]"
-            },
-            {
-                "name": "outages",
-                "code": "[SHORTAGE]"
-            },
-            {
-                "name": "blackouts",
-                "code": "[SHORTAGE]"
-            },
-            {
-                "name": "brownouts",
-                "code": "[SHORTAGE]"
-            },
-            {
-                "name": "power n:blackout",
-                "code": "[ELECTRICITY_OUTAGE]"
-            },
-            {
-                "name": "power n:failure",
-                "code": "[ELECTRICITY_OUTAGE]"
-            },
-            {
-                "name": "power n:outage",
-                "code": "[ELECTRICITY_OUTAGE]"
-            },
-            {
-                "name": "knocked out power",
-                "code": "[ELECTRICITY_OUTAGE]"
-            },
-            {
-                "name": "power disruption",
-                "code": "[ELECTRICITY_OUTAGE]"
-            },
-            {
-                "name": "disruption of power",
-                "code": "[ELECTRICITY_OUTAGE]"
-            },
-            {
-                "name": "without power",
-                "code": "[ELECTRICITY_OUTAGE]"
-            },
-            {
-                "name": "to restore power",
-                "code": "[ELECTRICITY_OUTAGE]"
-            },
-            {
-                "name": "to restore electricity",
-                "code": "[ELECTRICITY_OUTAGE]"
-            },
-            {
-                "name": "downed power line",
-                "code": "[ELECTRICITY_OUTAGE]"
-            },
-            {
-                "name": "without electricity",
-                "code": "[ELECTRICITY_OUTAGE]"
-            },
-            {
-                "name": "power wont be restored",
-                "code": "[ELECTRICITY_OUTAGE]"
-            },
-            {
-                "name": "price of food",
-                "code": "[FOOD_SECURITY]"
-            },
-            {
-                "name": "cost of food",
-                "code": "[FOOD_SECURITY]"
-            },
-            {
-                "name": "food security",
-                "code": "[FOOD_SECURITY]"
-            },
-            {
-                "name": "food n:shortage",
-                "code": "[FOOD_SECURITY]"
-            },
-            {
-                "name": "starvation",
-                "code": "[FOOD_SECURITY]"
-            },
-            {
-                "name": "food access",
-                "code": "[FOOD_SECURITY]"
-            },
-            {
-                "name": "n:famine",
-                "code": "[FOOD_SECURITY]"
-            },
-            {
-                "name": "v:access food",
-                "code": "[FOOD_SECURITY]"
-            },
-            {
-                "name": "food aid",
-                "code": "[FOOD_SECURITY]"
-            },
-            {
-                "name": "famine",
-                "code": "[FOOD_SECURITY]"
-            },
-            {
-                "name": "lack of food",
-                "code": "[FOOD_SECURITY]"
-            },
-            {
-                "name": "food n:crisis",
-                "code": "[FOOD_SECURITY]"
-            },
-            {
-                "name": "food n:emergency",
-                "code": "[FOOD_SECURITY]"
-            },
-            {
-                "name": "crop failure",
-                "code": "[FOOD_SECURITY]"
-            },
-            {
-                "name": "n:crop v:fail",
-                "code": "[FOOD_SECURITY]"
-            },
-            {
-                "name": "failure of the n:crop",
-                "code": "[FOOD_SECURITY]"
-            },
-            {
-                "name": "failure of n:crop",
-                "code": "[FOOD_SECURITY]"
-            },
-            {
-                "name": "malnourish",
-                "code": "[FOOD_SECURITY]"
-            },
-            {
-                "name": "malnourishment",
-                "code": "[FOOD_SECURITY]"
-            },
-            {
-                "name": "malnourished",
-                "code": "[FOOD_SECURITY]"
-            },
-            {
-                "name": "malnutrition",
-                "code": "[FOOD_SECURITY]"
-            },
-            {
-                "name": "drought",
-                "code": "[WATER_SECURITY]"
-            },
-            {
-                "name": "water n:shortage",
-                "code": "[WATER_SECURITY]"
-            },
-            {
-                "name": "drinking water",
-                "code": "[WATER_SECURITY]"
-            },
-            {
-                "name": "water access",
-                "code": "[WATER_SECURITY]"
-            },
-            {
-                "name": "water security",
-                "code": "[WATER_SECURITY]"
-            },
-            {
-                "name": "water n:shortage",
-                "code": "[WATER_SECURITY]"
-            },
-            {
-                "name": "water scarcity",
-                "code": "[WATER_SECURITY]"
-            },
-            {
-                "name": "shortage of water",
-                "code": "[WATER_SECURITY]"
-            },
-            {
-                "name": "water crisis",
-                "code": "[WATER_SECURITY]"
-            },
-            {
-                "name": "water n:supply",
-                "code": "[WATER_SECURITY]"
-            },
-            {
-                "name": "water n:emergency",
-                "code": "[WATER_SECURITY]"
-            },
-            {
-                "name": "water n:level",
-                "code": "[WATER_SECURITY]"
-            },
-            {
-                "name": "desertification",
-                "code": "[WATER_SECURITY]"
-            },
-            {
-                "name": "poor rainfall",
-                "code": "[WATER_SECURITY]"
-            },
-            {
-                "name": "lack of rainfall",
-                "code": "[WATER_SECURITY]"
-            },
-            {
-                "name": "lack of rain",
-                "code": "[WATER_SECURITY]"
-            },
-            {
-                "name": "no rain",
-                "code": "[WATER_SECURITY]"
-            },
-            {
-                "name": "potable water",
-                "code": "[WATER_SECURITY]"
             }
         ]
     },
@@ -3636,7 +3420,6 @@
                 "name": "n:racist",
                 "code": "[DISCRIMINATION]"
             },
-            "discriminatory",
             {
                 "name": "discrimination",
                 "code": "[DISCRIMINATION]"
@@ -4117,7 +3900,6 @@
                 "name": "freedom of the press",
                 "code": "[MEDIA_CENSORSHIP]"
             },
-            "n:journalist v:arrested",
             {
                 "name": "v:arrest n:journalist",
                 "code": "[MEDIA_CENSORSHIP]"
@@ -4244,11 +4026,7 @@
         "category": "\"KIDNAP\"",
         "type": "\"COUNTEVENT\"",
         "exclusion_phrases": [],
-        "names": [
-            "v:kidnap",
-            "v:abduct",
-            "abduction"
-        ]
+        "names": []
     },
     {
         "category": "\"ASSASSINATION\"",
@@ -7960,7 +7738,10 @@
                 "name": "goat pox",
                 "code": "[DISEASE]"
             },
-            "pox",
+            {
+                "name": "pox",
+                "code": "[DISEASE]"
+            },
             {
                 "name": "shigellosis",
                 "code": "[DISEASE]"
