@@ -138,13 +138,13 @@ knowledge exchange [SOUTH-TO-SOUTH]
 <ISSUE CATEGORY="EUROPEAN_UNION" TYPE="ALL">
 eu [EUROPEAN_UNION]
 e.u. [EUROPEAN_UNION]
-european central bank
-eec
-e.e.c.
-ecb
-e.c.b.
-e.c.b.
-eurozone
+european central bank [EUROPEAN_UNION]
+eec [EUROPEAN_UNION] 
+e.e.c. [EUROPEAN_UNION]
+ecb [EUROPEAN_UNION]
+e.c.b. [EUROPEAN_UNION]
+e.c.b. [EUROPEAN_UNION]
+eurozone [EUROPEAN_UNION]
 european union [EUROPEAN_UNION]
 european commission [EUROPEAN_UNION]
 european parliament [EUROPEAN_UNION]
@@ -2249,7 +2249,7 @@ sexually transmitted disease [DISEASE]
 sexually transmitted diseases [DISEASE]
 sheep pox [DISEASE]
 goat pox [DISEASE]
-pox
+pox [DISEASE]
 shigellosis [DISEASE]
 shingles [DISEASE]
 sickle cell anemia [DISEASE]
