@@ -1,0 +1,57 @@
+{
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "type": "array",
+    "items": {
+        "$ref": "#/definitions/PhoenixIssuesCodingElement"
+    },
+    "definitions": {
+        "PhoenixIssuesCodingElement": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "category": {
+                    "type": "string"
+                },
+                "type": {
+                    "type": "string"
+                },
+                "exclusion_phrases": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "names": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/Name"
+                    }
+                }
+            },
+            "required": [
+                "category",
+                "exclusion_phrases",
+                "names",
+                "type"
+            ],
+            "title": "PhoenixIssuesCodingElement"
+        },
+        "Name": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "code": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "code",
+                "name"
+            ],
+            "title": "Name"
+        }
+    }
+}

@@ -1,0 +1,93 @@
+{
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "$ref": "#/definitions/PhoenixAgents",
+    "definitions": {
+        "PhoenixAgents": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "substitution_sets": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/SubstitutionSet"
+                    }
+                },
+                "agents": {
+                    "type": "array",
+                    "items": {
+                        "$ref": "#/definitions/Agent"
+                    }
+                }
+            },
+            "required": [
+                "agents",
+                "substitution_sets"
+            ],
+            "title": "PhoenixAgents"
+        },
+        "Agent": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "name_plural": {
+                    "$ref": "#/definitions/NamePlural"
+                },
+                "code": {
+                    "$ref": "#/definitions/Code"
+                },
+                "comment": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "name",
+                "name_plural"
+            ],
+            "title": "Agent"
+        },
+        "SubstitutionSet": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "subcode": {
+                    "type": "string"
+                },
+                "subslist": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                }
+            },
+            "required": [
+                "subcode",
+                "subslist"
+            ],
+            "title": "SubstitutionSet"
+        },
+        "Code": {
+            "type": "string",
+            "enum": [
+                "~AGR",
+                "~BUD",
+                "~BUDEDU",
+                "~BUDUAF",
+                "~BUS",
+                "~BUSAGR",
+                "~BUSMIL"
+            ],
+            "title": "Code"
+        },
+        "NamePlural": {
+            "type": "string",
+            "enum": [
+                "",
+                "CHAMBERS_OF_COMMERCE"
+            ],
+            "title": "NamePlural"
+        }
+    }
+}
